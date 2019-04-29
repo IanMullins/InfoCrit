@@ -9,9 +9,16 @@ InfoCrit() returns a vector containing the AICs or BICs of autoregressive models
 
 1.Download a copy of this function onto your machine
 
-2.Pull the function into your R enviorment with ```source("your\path\InfoCrit")```
+2.Pull the function into your R environment with ```source("your\path\InfoCrit")```
 
 3.The function can now be called like any other ```InfoCrit(data_, column, lags, Type)```
+
+### Parameters
+* data_
+* column
+* lags
+* Type
+
 
 ### Technical Considerations
 
@@ -29,12 +36,7 @@ Where
 
 * T is the total number of time periods
 
-```
-Give examples
-```
-### Parameters
-
 
 ## Acknowledgments
 
-* Hat tip to Wesely Bundel Phd. 
+Wesely Bundell Ph.D. http://www.wesleyblundell.com/ for assigning the homework that made this necessary. 
