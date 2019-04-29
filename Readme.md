@@ -2,7 +2,7 @@
 
 This is a simple function that I ended up using quite often.
 
-InfoCrit() returns a vector containing the AICs or BICs of autoregressive models of a given variable  for lags 0:N.
+InfoCrit() returns a vector containing the AICs or BICs for autoregressive models of a given variable for lags 0:n .
 
 
 ## Simple usage instructions
@@ -15,9 +15,17 @@ InfoCrit() returns a vector containing the AICs or BICs of autoregressive models
 
 ### Parameters
 * data_
+
+Expects a dataframe containing atleast 1 named variable
 * column
+
+String - Name of the column of the dataframe to be used in the AR model.
 * lags
+
+int - Number of lags in the highest order model you want to run.
 * Type
+
+String - Default  = "AIC" , but also allows "BIC".At some point I may add others. 
 
 
 ### Technical Considerations
@@ -36,6 +44,7 @@ Where
 
 * T is the total number of time periods
 
+This may not agree with other R functions used to calculate Information criterion as they sometimes use different functions.
 
 ## Acknowledgments
 
