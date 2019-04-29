@@ -44,7 +44,7 @@ Where
 
 * T is the total number of time periods
 
-This may not agree with other R functions used to calculate Information criterion as they sometimes use different functions.
+This may not agree with other R functions used to calculate Information criterion as they sometimes use different formulas.
 
 ## Acknowledgments
 
